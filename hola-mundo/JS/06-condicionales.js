@@ -29,3 +29,23 @@ if(edad != 18){
 else{
     console.log("no se cumple");
 }
+
+var year=2022
+var year2=2018
+if(year !=2018){
+    console.log("el año no es 2018")
+}
+
+if(year>=2000 && year <= 2020){
+    console.log("la fecha se comprende entre el 2000 y el 2020");
+}
+else{
+    console.log("no se cumple");
+}
+
+if(year == 2022 || year2 == 2016){
+    console.log( " se cumple el or");
+}
+else{
+    console.log("no se cumple el or");
+}
