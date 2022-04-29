@@ -22,6 +22,9 @@ console.log(cadena_texto + verdadero_o_falso + numero_entero);
 //conversiones
 var numero_falso ="33";
 
-console.log(Number(numero_falso)+7);
-console.log(parseInt(numero_entero));
-console.log(parseFloat(numero_entero));
+console.log( Number(numero_falso)+7);
+console.log(typeof numero_falso);
+console.log( parseInt(numero_entero));
+console.log(typeof numero_entero);
+console.log( parseFloat(numero_entero));
+console.log(typeof numero_entero);
