@@ -1,6 +1,6 @@
 'use strict'
 
-//Mostrar todos los numeros impares que hat entre dos numeros introducidos por el usuario
+//Mostrar todos los numeros impares que hay entre dos numeros introducidos por el usuario
 
 var numero1 = parseInt(prompt('introduce un numero',0));
 var numero2 = parseInt(prompt('introduce otro numero',0));
