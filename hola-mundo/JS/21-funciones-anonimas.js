@@ -22,3 +22,14 @@ function(dato){
     console.log("la suma por dos es:",(dato*2));
 }
 )
+
+
+//version flecha de la function
+
+sumame(5,7,dato=>{
+    console.log("la suma es: ",dato);
+},
+dato=>{
+    console.log("la suma por dos es:",(dato*2));
+}
+)
