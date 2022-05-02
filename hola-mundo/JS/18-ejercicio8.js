@@ -14,18 +14,32 @@ while(isNaN(numero1) || isNaN(numero2)){
     numero2 = parseInt(prompt("introduce la segunda cifra: ",0));
 }
 
-document.write(numero1+numero2);
-alert(numero1+numero2);
-console.log(numero1+numero2);
+var resultado = "La suma es: "+ (numero1+numero2)+"<br>"+
+                "La resta es: "+(numero1-numero2)+"<br>"+
+                "La multiplicacion es: "+(numero1*numero2)+"<br>"+
+                "La division es: "+(numero1/numero2)+"<br>";
+var resultadon = "La suma es: "+ (numero1+numero2)+"\n"+
+                "La resta es: "+(numero1-numero2)+"\n"+
+                "La multiplicacion es: "+(numero1*numero2)+"\n"+
+                "La division es: "+(numero1/numero2)+"\n";
 
-document.write(numero1-numero2);
-alert(numero1-numero2);
-console.log(numero1-numero2);
+document.write(resultado);
+alert(resultadon);
+console.log(resultadon);
 
-document.write(numero1*numero2);
-alert(numero1*numero2);
-console.log(numero1*numero2);
 
-document.write(numero1/numero2);
-alert(numero1/numero2);
-console.log(numero1/numero2);
+// document.write(numero1+numero2);
+// alert(numero1+numero2);
+// console.log(numero1+numero2);
+
+// document.write(numero1-numero2);
+// alert(numero1-numero2);
+// console.log(numero1-numero2);
+
+// document.write(numero1*numero2);
+// alert(numero1*numero2);
+// console.log(numero1*numero2);
+
+// document.write(numero1/numero2);
+// alert(numero1/numero2);
+// console.log(numero1/numero2);
