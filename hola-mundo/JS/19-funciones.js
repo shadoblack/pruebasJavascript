@@ -3,13 +3,15 @@
 //funciones
 //una funcion es una agrupacion reutilizable de un conjunto de instrucciones.
 
-function calculadora(){
+function calculadora(numero1,numero2){
 
-    console.log("Hola soy la calculadora");
-    console.log("Si soy yo");
+    console.log("Suma: "+ (numero1+numero2));
+    console.log("Resta: "+(numero1-numero2) );
+    console.log("Multiplicacion: "+(numero1*numero2) );
+    console.log("Division: "+(numero1/numero2) );
 
     return "soy el return";
 
 }
 
-calculadora();
+calculadora(12,24);
