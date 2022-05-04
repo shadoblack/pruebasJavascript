@@ -27,3 +27,7 @@ document.write("<h1>lenguajes de programacion del 2020</h1>");
 for(var i = 0; i<lenguajes.length; i++){
     document.write("<li>"+lenguajes[i]+"</li>");
 }
+
+lenguajes.forEach((elemento,index,data)=>{
+    document.write("<li>"+elemento+"</li>");
+})
