@@ -23,5 +23,8 @@ console.log(array.sort());
 console.log(array.reverse());
 console.log(array.length);
 
-var busqueda = array.find(recorrido => recorrido == "Hola");
-console.log(busqueda);
+
+
+var busqueda = array.find(recorrido => recorrido == 5);
+var found =array.findIndex(recorrido2 => recorrido2 ==5);
+console.log(busqueda +" y esta en la posicion: "+ found);
