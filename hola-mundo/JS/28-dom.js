@@ -38,3 +38,17 @@ console.log(contenido1);
 // });
 
 console.log(todosLosDivs);
+
+//conseguir elementos por su clase css
+
+var divsRojos = document.getElementsByClassName('rojo');
+divsRojos[0].style.background = "red";
+console.log(divsRojos);
+
+//query selector
+
+var id =document.querySelector("#encabezado");
+console.log(id);
+
+
+
