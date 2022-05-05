@@ -50,5 +50,10 @@ console.log(divsRojos);
 var id =document.querySelector("#encabezado");
 console.log(id);
 
+//
+//
+//
+//
+//
 
 
