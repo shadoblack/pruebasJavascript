@@ -12,7 +12,24 @@ window.addEventListener('load',()=>{
 
         var nombre = document.querySelector('#nombre').value;
         var apellidos = document.querySelector('#apellidos').value;
-        var edad = document.querySelector('#edad').value;
+        var edad = parseInt(document.querySelector('#edad').value);
+
+        if(nombre.trim() ==null || nombre.trim().length ==0){
+            alert("El nombre no es valido")
+            return false;
+        }
+
+        
+        if(apellidos.trim() ==null || apellidos.trim().length ==0){
+            alert("los apellidos no son validos")
+            return false;
+        }
+
+        
+        if(edad ==null || edad.length <=0 || isNaN(edad)){
+            alert("la edad no es valida")
+            return false;
+        }
 
         box_dashed.style.display ="block";
 
