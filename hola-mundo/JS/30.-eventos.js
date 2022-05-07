@@ -1,7 +1,8 @@
 'use strict'
 
-//Eventos del raton
-
+//evento load
+window.addEventListener('load',() =>{
+    //Eventos del raton
 var boton = document.querySelector("#boton");
 
 function cambiarColor(){
@@ -60,3 +61,4 @@ input.addEventListener('keypress',function(){
 input.addEventListener('keyup',function(){
     console.log("tecla soltada");
 });
+});//end load
