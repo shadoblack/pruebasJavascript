@@ -24,7 +24,7 @@ for(let i in localStorage){
 
 var formulariob = document.querySelector("#formBorrarPeliculas");
 
-formulario.addEventListener('submit',()=>{
+formulariob.addEventListener('submit',()=>{
     var titulo = document.querySelector('#borrarPelicula').value
 if(titulo.length>=1){
     localStorage.removeItem(titulo);
