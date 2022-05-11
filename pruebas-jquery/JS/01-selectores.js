@@ -33,4 +33,12 @@ $(document).ready(function () {
         that.removeClass('grande');
     }
   });
+
+  //selectores de atributos
+
+  $('[title="google"]').css('background','#ccc');
+  $('[title="pccomponentes"]').css('background','blue');
+
+  //otros
+
 });
