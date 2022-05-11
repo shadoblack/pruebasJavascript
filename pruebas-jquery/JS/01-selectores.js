@@ -23,22 +23,31 @@ $(document).ready(function () {
 
   //selectores de etiqueta
 
-  var parrafos = $("p").css("cursor","pointer");
+  var parrafos = $("p").css("cursor", "pointer");
 
   parrafos.click(function () {
-      var that = $(this);
-    if (!that.hasClass('grande')) {
-      $(that).addClass('grande');
-    }else{
-        that.removeClass('grande');
+    var that = $(this);
+    if (!that.hasClass("grande")) {
+      $(that).addClass("grande");
+    } else {
+      that.removeClass("grande");
     }
   });
 
   //selectores de atributos
 
-  $('[title="google"]').css('background','#ccc');
-  $('[title="pccomponentes"]').css('background','blue');
+  $('[title="google"]').css("background", "#ccc");
+  $('[title="pccomponentes"]').css("background", "blue");
 
   //otros
 
+  // $('p,a').addClass('margen-superior');
+
+  var busqueda = $("#caja").find(".resaltado");
+
+//   //si a find lo ponemos asi eq(0).parent.find() ira a la posicion 0, 
+//   pero del elemento superior, por usar parent. se puede poner .parent.parent
+//    de forma indefinida.
+
+  console.log(busqueda);
 });
