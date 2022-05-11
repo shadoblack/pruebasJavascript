@@ -17,5 +17,6 @@ El dia es : ${dia}
 La hora es : ${hora}
 `;
 console.log(textoHora);
+console.log(Math.ceil(Math.random()*100));
 
 
