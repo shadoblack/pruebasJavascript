@@ -20,4 +20,17 @@ $(document).ready(function () {
     console.log("has clicado");
     $(this).addClass("zebra");
   });
+
+  //selectores de etiqueta
+
+  var parrafos = $("p").css("cursor","pointer");
+
+  parrafos.click(function () {
+      var that = $(this);
+    if (!that.hasClass('grande')) {
+      $(that).addClass('grande');
+    }else{
+        that.removeClass('grande');
+    }
+  });
 });
