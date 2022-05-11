@@ -41,6 +41,8 @@ getUsuarios()
             };
             return new Promise((resolve,reject)=>{
 
+                
+
             var profesor_string =JSON.stringify(profesor);
 
             if(typeof profesor_string != 'string') return reject('error');
