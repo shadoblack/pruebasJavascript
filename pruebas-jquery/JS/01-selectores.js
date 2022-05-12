@@ -48,6 +48,8 @@ $(document).ready(function () {
 //   //si a find lo ponemos asi eq(0).parent.find() ira a la posicion 0, 
 //   pero del elemento superior, por usar parent. se puede poner .parent.parent
 //    de forma indefinida.
+//     
+
 
   console.log(busqueda);
 });
