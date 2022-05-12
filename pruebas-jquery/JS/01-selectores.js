@@ -49,7 +49,11 @@ $(document).ready(function () {
 //   pero del elemento superior, por usar parent. se puede poner .parent.parent
 //    de forma indefinida.
 //     
-
+//
 
   console.log(busqueda);
+
+  
+
+
 });
