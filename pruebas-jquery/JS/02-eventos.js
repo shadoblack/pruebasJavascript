@@ -1,6 +1,7 @@
 $(document).ready(function () {
   console.log("JQuery OK!!");
 
+  var datos = $("#datos");
   //MouseOver y MouseOut
   // var caja = $("#caja");
 
@@ -40,6 +41,26 @@ var nombre = $("#nombre");
 
   nombre.blur(()=>{
     $(this).css("border","2px solid transparent");
-    $("#datos").text($(this).val()).show();
+    datos.text($(this).val()).show();
+  });
+
+  //mousedown y mouseup
+
+  datos.mousedown(()=>{
+    $(this).css("border-color","grey");
+  });
+
+  datos.mouseup(()=>{
+    $(this).css("border-color","black");
+  });
+
+  //mousemove
+  $(document).mousemove(()=>{
+    $('body').css("cursor","none")
+    console.log("X" + event.clientX);
+    console.log("Y" + event.clientY);
+      $("#sigueme").css("left",event.clientX);
+      $("#sigueme").css("top",event.clientY);
+
   });
 });
