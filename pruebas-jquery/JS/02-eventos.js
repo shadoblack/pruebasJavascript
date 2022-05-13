@@ -13,13 +13,22 @@ $(document).ready(function () {
   // });
 
   //hover
-  function cambiaRojo() {
-    $(this).css("background", "red");
-  }
+  // function cambiaRojo() {
+  //   $(this).css("background", "red");
+  // }
 
-  function cambiaVerde() {
-    $(this).css("background", "red");
-  }
+  // function cambiaVerde() {
+  //   $(this).css("background", "red");
+  // }
 
-  caja.hover(cambiaRojo, cambiaVerde);
+  // $(caja).hover(cambiaRojo, cambiaVerde);
+
+  //click, doble click
+  $(caja).click(function () {
+    $(this).css("background", "blue").css("color", "white");
+  });
+
+  $(caja).dblclick(function () {
+    $(this).css("background", "pink").css("color", "yellow");
+  });
 });
