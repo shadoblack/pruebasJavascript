@@ -31,4 +31,15 @@ $(document).ready(function () {
   $(caja).dblclick(function () {
     $(this).css("background", "pink").css("color", "yellow");
   });
+
+  //focus y blur
+var nombre = $("#nombre");
+  nombre.focus(()=>{
+    $(this).css("border","2px solid red");
+  });
+
+  nombre.blur(()=>{
+    $(this).css("border","2px solid transparent");
+    $("#datos").text($(this).val()).show();
+  });
 });
