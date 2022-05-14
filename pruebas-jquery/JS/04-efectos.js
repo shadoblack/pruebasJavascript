@@ -4,11 +4,22 @@ $(document).ready(()=>{
     $("#caja").hide();
 
     $("#mostrar").click(()=>{
-        $("#caja").show();
+        $(this).hide();
+        $("#ocultar").show();
+        $("#caja").fadeIn('slow');
 
     });
     $("#ocultar").click(()=>{
-        $("#caja").hide();
+        $(this).hide();
+        $("#mostrar").show();
+        $("#caja").fadeOut('slow');
+        
 
     });
+
+    $("#todoEnUno").click(()=>{
+        $("#caja").fadeToggle('fast');
+
+        //fadetoggle,slidetoggle,slideDown,SlideUp...hay muchos mas.ir probando
+    })
 });
