@@ -23,6 +23,15 @@ $(document).ready(()=>{
             console.log("has soltado algo dentro del area");
         }
     });
+
+
+    //efectos
+    $('#mostrar').click(()=>{
+        $(".caja-efectos").toggle("explode","slow");
+    });
+
+    //tooltip
+    $(document).tooltip();
     
 
 });
