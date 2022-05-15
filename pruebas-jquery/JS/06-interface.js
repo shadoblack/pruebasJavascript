@@ -32,6 +32,18 @@ $(document).ready(()=>{
 
     //tooltip
     $(document).tooltip();
+
+    //dialog
+    $("#lanzar-popup").click(()=>{
+        $("#popup").dialog();
+    });
     
+
+    //datepicker
+
+    $('#calendario').datepicker();
+
+    //tabs
+    $("#pestanas").tabs();
 
 });
